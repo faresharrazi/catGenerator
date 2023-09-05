@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Using CSS library BULMA -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cat Generator Exercice</title>
+  </head>
+  <body>
+    <div class="columns is-centered">
+        <div class="column is-one-third">
+    <div class="container card">
+        <header class="card-header">
+          <p class="card-header-title is-centered is-size-1">
+            Cat Generator
+          </p><p>
+            By Fares
+          </p>
+          
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <figure class="image is-4by3">
+                <img id="catimg" src="https://bulma.io/images/placeholders/128x128.png">
+              </figure>
+        </div>
+        <footer class="card-footer">
+            <button id="btn" class="button is-success is-large is-fullwidth">Generate</button>
+        </footer>
+      </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
